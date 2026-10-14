@@ -2,7 +2,7 @@
 
 A multilingual chatbot that helps immigrants find clear, sourced answers to everyday questions about the United States, such as green cards, citizenship, healthcare, and learning English. It answers only from official web pages it has indexed, shows where each answer came from, and says so when it doesn't know.
 
-LIVE SCREENSHOT OF THE WEBSITE: 
+![Chat interface](docs/screenshot.png)
 <img width="1917" height="937" alt="image" src="https://github.com/user-attachments/assets/1d8d6188-b309-4c12-a4e7-69ef16db1f1d" />
 
 ## Why I built this

@@ -2,7 +2,6 @@
 
 A multilingual chatbot that helps immigrants find clear, sourced answers to everyday questions about the United States, such as green cards, citizenship, healthcare, and learning English. It answers only from official web pages it has indexed, shows where each answer came from, and says so when it doesn't know.
 
-![Chat interface]
 <img width="1917" height="937" alt="image" src="https://github.com/user-attachments/assets/b134a908-f130-44de-8420-2c0828807f42" />
 
 
@@ -163,6 +162,13 @@ Open `http://localhost:3000`.
 
 Both endpoints require an `X-API-Key` header matching `APP_API_KEY`.
 
+## Known limitations
+
+- **No conversation memory.** Each question is answered on its own, so follow-ups don't work yet.
+- **No formal evaluation yet.** I haven't measured answer accuracy or retrieval quality with a test set.
+- **Limited knowledge.** The bot only knows the pages that have been indexed, and the loader reads one page at a time.
+- **Interface text is mostly English.** Answers are translated by the model, but buttons and labels are not.
+- **Not legal advice.** The bot can be wrong or out of date, so users should confirm with the linked source and a licensed immigration attorney or accredited representative.
 
 ## Roadmap
 
